@@ -1,10 +1,6 @@
-# 中南大学nCov健康打卡定时自动脚本（Github-Actions版）
-
-**注意**：本master分支版本代码使用Github-Actions定时运行，无需部署在服务器。如需在服务器中运行，请使用service分支中的代码。
+# 中南大学nCov健康打卡定时自动脚本
 
 ## Description
-
-**特此声明**：项目用于学习交流，仅用于各项无异常时打卡，如有身体不适等情况还请自行如实打卡！
 
 * 可定时，默认为每天7点5分
 * 默认每次提交上次所提交的内容（只有时间部分更新）
@@ -14,30 +10,6 @@
 ![](https://raw.githubusercontent.com/lxy764139720/Figurebed/master/img/20200817190036.png)
 
 ## Usage
-
-## 获取Cookie
-
-获取eai-sess和UUkey
-
-1. 打开浏览器，按F12调出控制台
-
-2. 打开Network选项，勾选Preserve log![](https://raw.githubusercontent.com/lxy764139720/Figurebed/master/img/20200410114231.jpg)
-
-3. 打开健康打卡页面[https://wxxy.csu.edu.cn/ncov/wap/default/index](https://wxxy.csu.edu.cn/ncov/wap/default/index)
-
-4. 若跳转至此页面，输入学工号与门户密码进行登录![](https://raw.githubusercontent.com/lxy764139720/Figurebed/master/img/20200410114831.jpg)
-
-5. 在左侧找到info并点开，在右侧找到Request Headers，将Cookie中的eai-sess和UUkey记录下来![](https://raw.githubusercontent.com/lxy764139720/Figurebed/master/img/20200410115438.jpg)
-
-如果以上方法未能找到info页面和Cookie中的eai-sess和UUke，请尝试按下图方法搜索：
-
-1. 打开Network选项，勾选Preserve log![](https://raw.githubusercontent.com/lxy764139720/Figurebed/master/img/20200915000353.png)
-
-2. 点击放大镜处的搜索按钮![](https://raw.githubusercontent.com/lxy764139720/Figurebed/master/img/20200915000637.png)
-
-3. 搜索eai-sess![](https://raw.githubusercontent.com/lxy764139720/Figurebed/master/img/20200915000915.jpg)
-
-4. 搜索UUkey![](https://raw.githubusercontent.com/lxy764139720/Figurebed/master/img/20200915001018.jpg)
 
 ### 运行方式
 
